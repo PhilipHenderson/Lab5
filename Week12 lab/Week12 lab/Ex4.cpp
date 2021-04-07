@@ -6,37 +6,42 @@ using namespace std;
 int main()
 {
 	DynTempQueue<int> iQueue;
-	//DynTempQueue<double> dQueue;
+	DynTempQueue<double> dQueue;
 
-	cout << "Enqueue 5 items...\n";
+	cout << "Enqueue up to 15 Ints...\n";
 
 	for (int i = 1; i <= 15; i++)
 	{
-		iQueue.enqueue(i * i);
-		cout << "int: " << i << endl;
+		iQueue.enqueue(i);
+		cout << i << " ";
 	}
-
-	cout << "Dequeued Values Were:\n";
+	cout << endl;
+	cout << "Dequeued Int Values Were:\n";
 	while (!iQueue.isEmpty())
 	{
 		int value;
 		iQueue.dequeue(value);
 		cout << value << " ";
 	}
+	cout << endl;
+	cout << endl;
 
 
-	//for (double i = 1; i <= 30; i = (i * 1.25))
-	//{
-	//	cout << "int Enqueue: " << i << endl;
-	//	dQueue.enqueue(i + i);
-	//}
-	//while (!dQueue.isEmpty())
-	//{
-	//	int value;
-	//	iQueue.dequeue(value);
-	//	cout << value << " ";
-	//}
-
+	cout << "Enqueue  up tp 15 Doubles...\n";
+	for (double i = 1; i <= 15; i = (i * 1.25))
+	{
+		dQueue.enqueue(i);
+		cout << i << " ";
+	}
+	cout << endl;
+	cout << "Dequeued Double Values Were:\n";
+	while (!dQueue.isEmpty())
+	{
+		double value;
+		dQueue.dequeue(value);
+		cout << value << " ";
+	}
+	cout << endl << endl;
 
 	return 0;
 }

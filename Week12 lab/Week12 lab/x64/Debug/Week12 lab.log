@@ -1,4 +1,0 @@
-﻿  Ex4.cpp
-C:\Users\Phili\Desktop\School Stuff\Semester 2\1011 - Advanced Programming\Week12-STL Lists, Stacks and Queues\Lab5\Week12 lab\Week12 lab\DynTempQueue.h(65): warning C4715: 'DynTempQueue<int>::enqueue': not all control paths return a value
-C:\Users\Phili\Desktop\School Stuff\Semester 2\1011 - Advanced Programming\Week12-STL Lists, Stacks and Queues\Lab5\Week12 lab\Week12 lab\DynTempQueue.h(85): warning C4715: 'DynTempQueue<int>::dequeue': not all control paths return a value
-  Week12 lab.vcxproj -> C:\Users\Phili\Desktop\School Stuff\Semester 2\1011 - Advanced Programming\Week12-STL Lists, Stacks and Queues\Lab5\Week12 lab\x64\Debug\Week12 lab.exe
