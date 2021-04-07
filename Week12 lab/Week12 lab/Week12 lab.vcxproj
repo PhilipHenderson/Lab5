@@ -140,7 +140,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DynTempQueue.cpp" />
-    <ClCompile Include="DynTempStack.cpp" />
     <ClCompile Include="Ex1.cpp" />
     <ClCompile Include="Ex2.cpp" />
     <ClCompile Include="Ex3.cpp" />
