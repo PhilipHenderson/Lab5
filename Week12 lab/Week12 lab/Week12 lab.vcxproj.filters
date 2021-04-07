@@ -15,35 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Ex1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="IntStack.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Ex2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Ex3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="IntQueue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Ex4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DynTempQueue.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="IntStack.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IntQueue.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="DynTempQueue.h">
       <Filter>Header Files</Filter>
     </ClInclude>
