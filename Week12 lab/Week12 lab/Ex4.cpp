@@ -15,14 +15,17 @@ int main()
 		iQueue.enqueue(i);
 		cout << i << " ";
 	}
+
 	cout << endl;
 	cout << "Dequeued Int Values Were:\n";
+
 	while (!iQueue.isEmpty())
 	{
 		int value;
 		iQueue.dequeue(value);
 		cout << value << " ";
 	}
+
 	cout << endl;
 	cout << endl;
 
@@ -33,14 +36,17 @@ int main()
 		dQueue.enqueue(i);
 		cout << i << " ";
 	}
+
 	cout << endl;
 	cout << "Dequeued Double Values Were:\n";
+
 	while (!dQueue.isEmpty())
 	{
 		double value;
 		dQueue.dequeue(value);
 		cout << value << " ";
 	}
+
 	cout << endl << endl;
 
 	return 0;
